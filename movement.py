@@ -18,3 +18,6 @@ class Movement(Turtle):
     def move_left(self):
         self.left(10)
 
+    def clearing(self):
+        self.reset()
+
